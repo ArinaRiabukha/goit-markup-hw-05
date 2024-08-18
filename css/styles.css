@@ -677,13 +677,13 @@
     width: 10px;
     height: 10px;
     pointer-events: none;
+    fill: #fcfcfc;
 }
-.checkbox-input input:checked + .checkbox-label .checkbox-span{
+.checkbox-input input:checked + .checkbox-label .checkbox-span,
+.checkbox-input input:checked + .checkbox-label .svg-checked{
     background-color: #404bbf;
     border: none;
-}
-.checkbox-input input:checked + .checkbox-label .svg-checked{
-    fill:#F4F4FD; 
+    fill:#F4F4FD;
 }
 
 .form-button{
